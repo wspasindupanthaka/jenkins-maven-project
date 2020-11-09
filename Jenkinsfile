@@ -23,10 +23,5 @@ pipeline {
 				archive 'target/*.jar'
 			}
 		}
-		stage("Email Build Status"){
-			steps {
-				
-			}
-		}
 	}
 }
